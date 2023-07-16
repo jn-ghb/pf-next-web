@@ -116,7 +116,7 @@ export default function handler(
               {
                 title: "WebGLAnimation(PC用)",
                 icon: "link",
-                url: "http://junnitta-pf.sakura.ne.jp/contents/three/",
+                url: "https://jn-ghb.github.io/webGLAnimation/",
               },
               {
                 title: "gitHub",
