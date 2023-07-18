@@ -36,14 +36,9 @@ export default function handler(
               "Banner Revolutionプロジェクトにて広告の動的クリエイティブバナーを作成しました。広告を表示する制約上、Jquery以外のライブラリを入れることが出来なかったため、ほぼピュアなjavascriptで実装しました。複雑な構成はejsを使用し、コンポーネント分けをしてコーディングしました。CSSTransition,javascriptに対する理解が深まりました。3年間で約200本のクリエイティブを作成しました。",
             links: [
               {
-                title: "Banner Revolution",
-                icon: "link",
-                url: "https://advancedcreativecenter.com/",
-              },
-              {
                 title: "Creative List(自分が作ったものの一部まとめ)",
                 icon: "link",
-                url: "https://junnitta-pf.sakura.ne.jp/contents/creativeList/",
+                url: "https://jn-ghb.github.io/creative-list/build/",
               },
               {
                 title: "gitHub",
@@ -142,7 +137,7 @@ export default function handler(
               {
                 title: "開発中2Dサンドボックスゲーム(PC用)",
                 icon: "link",
-                url: "https://junnitta-pf.sakura.ne.jp/contents/unity2DSandboxGame/",
+                url: "https://jn-ghb.github.io/2dSandboxGame/web/",
               },
               {
                 title: "gitHub",

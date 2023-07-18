@@ -68,7 +68,8 @@ const Home: NextPage<Props> = ({ allContentsData, profileData, worksData }) => {
 };
 
 export async function getStaticProps() {
-  const response = await fetch("https://pf-next-web.vercel.app/api/contents");
+  if (!process.env.NEXT_PUBLIC_API_BASE_URL) return;
+  const response = await fetch(process.env.NEXT_PUBLIC_API_BASE_URL);
   const data = await response.json();
 
   return {
