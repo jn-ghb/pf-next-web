@@ -71,6 +71,7 @@ export async function getStaticProps() {
   if (!process.env.NEXT_PUBLIC_API_BASE_URL) return;
   const response = await fetch(process.env.NEXT_PUBLIC_API_BASE_URL);
   const data = await response.json();
+  console.log("test");
 
   return {
     props: {
