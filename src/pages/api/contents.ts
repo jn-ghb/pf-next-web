@@ -161,7 +161,7 @@ export default function handler(
               {
                 title: "randomSeedMap(PC用)",
                 icon: "link",
-                url: "https://junnitta-pf.sakura.ne.jp/contents/randomSeedMap/",
+                url: "https://jn-ghb.github.io/randomSeedMap/build/",
               },
               {
                 title: "gitHub",
